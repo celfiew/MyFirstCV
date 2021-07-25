@@ -1,0 +1,133 @@
+@use 'variables' as color;
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Benne', serif;
+    div#frase{
+        background-color: color.$primero;
+        color:color.$secundario;
+        text-align: right;
+        padding-right: 6%;
+        font-weight: lighter;
+    }
+    header{background-image: url(../img/banner.jpg)}
+    header{
+        &.foto{
+            height: 250px;  
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        #fotocesar{
+            align-content: center;
+            width: 180px;
+            height: 180px;
+            padding-top: 25px;
+            border-radius: 50%;
+            }
+         }
+    main{
+        background-color: color.$secundario; 
+        margin: 0;
+        padding: 0px;
+        letter-spacing: 0px;
+        font-weight: lighter;
+        height: 100px;
+        color: color.$primero;
+        text-align: center; 
+        h1{ 
+            margin: 0;
+            font-size: 30px}
+        h3{
+                color: color.$primero;
+                margin: 0;
+                font-size: 15px;
+                font-weight: lighter;
+                padding:0%
+            }
+        }
+        div{
+        &.datos{
+                margin: 5% 25%
+        }
+            section{
+                h2.subtitulo{
+                    background-color: color.$primero;
+                    color: color.$cuarto;
+                    padding: 6px 15px;
+                    top: 352px;  
+                    font-size: 20px;
+                    letter-spacing: 0px;  
+                    border-radius: 0%
+                }
+                ul{
+                    span{
+                        &.titulosDatos{
+                        font-weight: bold;
+                        font-style: italic;
+                        font-size: 20px;
+                        
+                    }
+                }
+                    .respuesta{
+                        display: flex;
+                        align-items: center;
+                        text-align: center;
+                        align-items: center;
+                    }
+                    .imagenes{
+                        margin: o;
+                    }
+                }
+                    div {
+                        #fondo{
+                            padding: 10px;
+                            color: color.$primero;
+                            text-transform: uppercase;
+                            display: flex;
+                            align-items: center;
+                            align-content: center;}
+                        .experiencia{
+                            height: 250px;
+                            width: 600px;
+                            border-radius: 5%;
+                            border-image: 2px;
+                            display: flex;
+
+                        }
+                    }
+            }
+        }
+    footer{
+        &.piePagina{
+            align-items: center;
+            background-color:color.$primero;
+            color: color.$secundario;
+            display: flex;
+            font-size: 20px;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            height: 37px;
+            padding: 10px;
+            align-content: center;
+         }
+        }
+        #soy{
+            background-image: url(../img/cesarM.jpg);
+            padding: 10%;
+        }
+        p{
+            background-color:color.$terciario;
+            color:color.$secundario;
+            font-weight: bold;
+            width: 70%;
+            text-align: center;
+            font-size: 25px;
+            align-content: center;
+            align-items: center;
+            display: flex;
+        }
+    }
+  
