@@ -1,4 +1,4 @@
-# MyFirstCV:page_facing_up:
+# MyFirstCV :page_facing_up: :triangular_flag_on_post:
 
 ## My first paths like a Tech Developer in the frontend field.
 
